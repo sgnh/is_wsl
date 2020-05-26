@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    is_wsl (1.0.0)
+      is_docker (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    is_docker (1.0.0)
+    minitest (5.14.1)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  is_wsl!
+  minitest (~> 5.0)
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
